@@ -1,0 +1,24 @@
+<html>
+<head>
+  <title>Tugas1</title>
+<script src="jquery-3.6.0.min.js">//untuk memanggil j query</script>
+<script type="text/javascript">//script untuk menampilkan gambar jika di klik Tampilkan dan Sembunyikan untuk menyembunyikan gambar
+$(document).ready(function(){
+$(".hide").click(function() {$("#pic").hide("slow") });
+$(".show").click(function() {$("#pic").show("slow") });
+});
+$(document).ready(function(){
+$(".hide1").click(function() {$("#pic1").hide("slow") });
+$(".show1").click(function() {$("#pic1").show("slow") });
+});
+</script>
+</head>
+<body>
+<button class="hide">Sembunyikan</button>
+<button class="show">Tampilkan</button>
+<p><img id="pic"src="mario.png"></p></body>
+
+<button class="hide1">Sembunyikan</button>
+<button class="show1">Tampilkan</button>
+<p><img id="pic1"src="luigi.png"></p></body>
+</html>
